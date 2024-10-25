@@ -1,0 +1,25 @@
+{
+  "name": "env-setup-helper",
+  "version": "1.0.0",
+  "description": "A Node.js script to simplify the setup of environment variables for any project by checking required keys, prompting for missing values, and updating the .env file.",
+  "main": "setup-env.ts",
+  "scripts": {
+    "setup-env": "node -r esbuild-register setup-env.ts"
+  },
+  "keywords": [
+    "environment variables",
+    "env setup",
+    "developer experience",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Dimitar Atanasov",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild-register": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.9",
+    "typescript": "^5.6.3"
+  }
+}
